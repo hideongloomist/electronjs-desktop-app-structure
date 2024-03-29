@@ -1,0 +1,11 @@
+node_modules
+dist
+public/vendors
+vendors/bootstrap
+public/events
+package-lock.json
+yarn.lock
+public/css/app.css
+env.constant.ts
+product
+*.save

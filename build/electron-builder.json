@@ -1,0 +1,45 @@
+{
+  "appId": "MyApp",
+  "productName": "MyApp",
+  "directories": {
+    "output": "product"
+  },
+  "compression": "normal",
+  "files": [
+    "dist/**/*",
+    "node_modules/**/*.{js,ts,json,map}",
+    "node_modules/sqlite3",
+    "!node_modules/electron-builder/**/*",
+    "!node_modules/electron/**/*",
+    "!node_modules/**/{docs,doc,example,examples,demo,demos,test,tests,__tests__,*.test.*,*.spec.*}",
+    {
+      "from": "public",
+      "to": "public",
+      "filter": "**/*"
+    }
+  ],
+  "includeSubNodeModules": true,
+  "asar": true,
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {},
+  "linux": {
+    "target": "AppImage"
+  },
+  "nsis": {
+    "installerIcon": "build/icon.ico",
+    "uninstallerIcon": "build/icon.ico",
+    "uninstallDisplayName": "MyApp Uninstaller",
+    "oneClick": false,
+    "perMachine": true,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "runAfterFinish": true,
+    "deleteAppDataOnUninstall": true,
+    "allowElevation": true,
+    "installerLanguages": "en_US",
+    "license": "LICENSE"
+  }
+}

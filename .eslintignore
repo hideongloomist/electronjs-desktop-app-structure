@@ -1,0 +1,8 @@
+public/**/*.js
+bin/**/*.js
+webpack.config.js
+electron-builder-config.js
+build
+tsconfig.json
+commitlint.config.js
+env.interface.ts
