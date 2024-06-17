@@ -94,7 +94,7 @@
     "get-google-fonts": "^1.2.2",
     "html-minifier": "^4.0.0",
     "husky": "^9.0.11",
-    "javascript-obfuscator": "^4.1.0",
+    "javascript-obfuscator": "^4.1.1",
     "jquery": "^3.7.1",
     "jquery-easing": "^0.0.1",
     "lint-staged": "^15.2.2",
