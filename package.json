@@ -61,7 +61,7 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "crypto-js": "^4.2.0",
-    "electron": "^29.1.6",
+    "electron": "^31.0.2",
     "electron-builder": "^24.13.3",
     "electron-updater": "^6.1.8",
     "moment": "^2.30.1",
